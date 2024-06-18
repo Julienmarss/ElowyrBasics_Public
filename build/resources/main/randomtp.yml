@@ -1,0 +1,5 @@
+GUI-NAME: "&6&lTéléportation"
+
+MESSAGES:
+  COOLDOWN: "&6&lRTP &7◆ &fVeuillez patienter &2&l%time% &favant de pouvoir vous &atéléporter &f!"
+  SUCCESS: "&6&lRTP &7◆ &fVous avez été &atéléporté&f aléatoirement &f!"

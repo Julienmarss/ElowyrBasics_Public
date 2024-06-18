@@ -1,0 +1,19 @@
+MESSAGES:
+  INVALID-PROFIL: "&6&lJoyaux &7◆ &fLe joueur &e%player% &fn'existe pas."
+  INVALID-QUANTITY: "&6&lJoyaux &7◆ &fLa quantité proposé est &cincorrect&f."
+  WIN: "&6&lJoyaux &7◆ &fVous avez reçu &5&l%joyaux% joyaux ❃&f."
+  USAGE:
+    - "&f- &d/joyaux give <player> <quantity>"
+    - "&f- &d/joyaux look <player>"
+    - "&f- &d/joyaux take <player> <quantity>"
+  GIVE:
+    USAGE: "&6&lJoyaux &7◆ &e/joyaux give <player> <quantity>."
+    SUCCESS: "&6&lJoyaux &7◆ &fVous avez &adonné &d%quantity%&f joyaux à &e%player%&f."
+    SUCCESS-OTHER: "&6&lJoyaux &7◆ &fVous avez &areçu&d %quantity%&f joyaux."
+  TAKE:
+    USAGE: "&6&lJoyaux &7◆ &e/joyaux take <player> <quantity>."
+    SUCCESS: "&6&lJoyaux &7◆ &fVous avez &cretiré &d%quantity% &fjoyaux à &e%player%&f."
+    SUCCESS-OTHER: "&6&lJoyaux &7◆ &fVous avez &adépensé&d %quantity% &fjoyaux."
+  LOOK:
+    USAGE: "&6&lJoyaux &7◆ &e/joyaux look <player>."
+    INFO: "&6&lPoints &7◆ &fLe joueur &e%player%&f possède &d%joyaux% &fjoyaux."

@@ -1,0 +1,23 @@
+inventory-name: "&7Marché Noir"
+
+inventory-glass-empty: "&cAucun objet n'est disponible..."
+
+inventory-lore:
+  - ""
+  - "&7◆ &fId: &7%id%"
+  - "&7◆ &fQuantités: &7%quantity%"
+  - "&7◆ &fPrix: &b%price%"
+  - ""
+  - "&7◆ &fTemps restant: &b%timeleft%"
+  - ""
+
+MESSAGES:
+  TIMELEFT:
+    TITLE: "&6&lBlackMarket"
+    SUBTITLE: "&fIl vous reste %time% avant que l'objet %item% disparaisse."
+  QUANTITY:
+    TITLE: "&6&lBlackMarket"
+    SUBTITLE: "&fIl reste seulement que &b%quantity% %item% &adisponible&f !"
+  BUY:
+    TITLE: "&6&lBlackMarket"
+    SUBTITLE: "&fVous venez &ad'acheter&f %item% &fpour &e%price%$"

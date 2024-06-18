@@ -1,0 +1,28 @@
+MESSAGESS:
+  INVALID-PROFIL: "&6&lPoints &7◆ &fLe joueur &e%player% &fn'existe pas."
+  INVALID-QUANTITY: "&6&lPoints &7◆ &fLa quantité proposé est &cincorrect&f."
+  USAGE:
+    - "&f- &e/points give <player> <quantity>"
+    - "&f- &e/points look <player>"
+    - "&f- &e/points remove <player> <quantity>"
+    - "&f- &e/points take <player> <quantity>"
+  GIVE:
+    USAGE: "&6&lPoints &7◆ &e/points give <player> <quantity>."
+    SUCCESS: "&6&lPoints &7◆ &fVous avez &adonné &d%quantity%&f crédits à &e%player%&f."
+    SUCCESS-OTHER: "&6&lPoints &7◆ &fVous avez &areçu&d %quantity%&f crédits."
+  PAY:
+    USAGE: "&6&lPoints &7◆ &e/points pay <player> <quantity>."
+    SUCCESS: "&6&lPoints &7◆ &fVous avez &aenvoyé &d%quantity%&f crédits à &e%player%&f."
+    SUCCESS-OTHER: "&6&lPoints &7◆ &fVous avez &areçu&d %quantity%&f crédits de &e%player%&f."
+  TAKE:
+    USAGE: "&6&lPoints &7◆ &e/points take <player> <quantity>."
+    SUCCESS: "&6&lPoints &7◆ &fVous avez &cretiré &d%quantity% &fcrédits à &e%player%&f."
+    SUCCESS-OTHER: "&6&lPoints &7◆ &fVous avez &adépensé&d %quantity% &fcrédits."
+  LOOK:
+    USAGE: "&6&lPoints &7◆ &e/points look <player>."
+    SUCCESS-POINTS: "&6&lPoints &7◆ &fLe joueur &e%player%&f possède &d%points% &fcrédits."
+    SUCCESS-SPENTS: "&6&lPoints &7◆ &fLe joueur &e%player%&f à dépensé &d%spents% &fcrédits."
+  REMOVE:
+    USAGE: "&6&lPoints &7◆ &e/points remove <player> <quantity>."
+    SUCCESS: "&6&lPoints &7◆ &fVous avez &cretiré &d%quantity% &fcrédits à &e%player%&f."
+    SUCCESS-OTHER: "&6&lPoints &7◆ &fVous avez &cperdu&d %quantity% &fcrédits."

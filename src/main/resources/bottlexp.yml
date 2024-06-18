@@ -1,0 +1,8 @@
+BOTTLE_LORE: "&7Niveaux contenus: &6"
+BOTTLE_NAME: "&aRéserve d'XP"
+
+MESSAGES:
+  INVENTORY-FULL: "&6&lBottleXP &7◆ &fVotre inventaire est &ccomplet&f."
+  SUCCESS: "&6&lBottleXP &7◆ &fVous venez de &atransformer &b%level% niveau(x)&f en bouteille&f."
+  DONT-LEVEL: "&6&lBottleXP &7◆ &fVous n'avez &fpas &cassez &fde &eniveau &f!"
+  ADD: "&6&lBottleXP &7◆ &fVous avez &arécupéré&b %level% niveau(x)&f !"

@@ -1,0 +1,54 @@
+MESSAGES:
+  INVALID-PLAYER: "&6&lTitre &7◆ &fLe joueur &e%player%&f n'existe pas."
+  INVALID-TITLE: "&6&lTitre &7◆ &fAucun titre &cn'existe&f avec ce nom &f!"
+  ADD:
+    USAGE: "&6&lTitre &7◆ &e/title add <player> <title>."
+    ALREADY: "&6&lTitre &7◆  &fLe joueur &cpossède &fdéjà le titre %title%&f."
+    SUCCESS: "&6&lTitre &7◆ &fVous venez de &adonner&f le titre %title% &fà &e%player%&f."
+    SUCCESS-OTHER: "&6&lTitre &7◆ &fVous avez &areçu &fle titre %title%&f."
+  CREATE:
+    USAGE: "&6&lTitre &7◆ &e/title create <name> <format>."
+    ALREADY-EXIST: "&6&lTitre &7◆ &fUn titre &cexiste &fdéjà avec ce nom &f!"
+    SUCCESS: "&6&lTitre &7◆ &fLe titre %title%  &fa été &acrée &f!"
+  DELETE:
+    USAGE: "&6&lTitre &7◆ &e/title delete <name>."
+    NO-EXIST: "&6&lTitre &7◆ &fAucun titre &cn'existe&f avec ce nom &f!"
+    SUCCESS: "&6&lTitre &7◆ &fVous venez de &csupprimer&f le titre %title%&f."
+  EDIT:
+    USAGE: "&6&lTitre &7◆ &e/title edit <name> <format>."
+    NO-EXIST: "&6&lTitre &7◆ &Aucun titre &cn'existe&f avec ce nom &f!"
+    SUCCESS: "&6&lTitre &7◆ &fLe titre &%title% &fa été &amodifié &f!"
+  REMOVE:
+    USAGE: "&6&lTitre &7◆ &c/title remove <player> <title>."
+    NO-HAS: "&6&lTitre &7◆  &fLe joueur ne &cpossède &fpas le titre %title%&f."
+    SUCCESS: "&6&lTitre &7◆ &fVous venez de &cretirer&f le titre %title% &fau joueur &e%player%&f."
+    SUCCESS-OTHER: "&6&lTitre &7◆ &fVous avez &cperdu &fle titre %title%&f."
+  ACTIVED: "&6&lTitre &7◆ &fVous avez &aactivé&f le titre %title% &f!"
+  ALREADY-ACTIVED: "&6&lTitre &7◆ &fVous avez &cdéjà &fle titre %title%&f."
+  DESACTIVED: "&6&lTitre &7◆ &fVous avez &cdésactivé&f le titre %title% &f!"
+  ALREADY-DESACTIVED: "&6&lTitre &7◆ &fVous &cn'avez&f pas le titre  %title%&f."
+  NO-HAVE: "&6&lTitre &7◆ &fVous ne &cpossédez &fpas le titre %title%&f."
+
+GUI:
+  NAME: "&e&l⦙ &6&lTitre &f- %title%"
+  DESCRIPTION:
+    - ""
+    - "&7Accès au sufix &f- %player% %title%"
+    - ""
+    - "&fClic-gauche: &a&lActiver"
+    - "&fClic-droit: &c&lDésactiver"
+    - ""
+    - "&aCliquez pour activer le titre. &2✔"
+  DESCRIPTION-NO:
+    - ""
+    - "&7Accès au sufix &f- %player% %title%"
+    - ""
+    - "&fClic-gauche: &a&lActiver"
+    - "&fClic-droit: &c&lDésactiver"
+    - ""
+    - "&cVous ne possédez pas ce titre. &4&l✘"
+  EMPTY-NAME: "&cAucun title n'est disponible."
+  EMPTY-DESCRIPTION:
+    - ""
+    - "&7▪ &fAucun &6Titre&f n'est &cdisponible &fpour"
+    - " &fle moment reviens me voir plus tard !"

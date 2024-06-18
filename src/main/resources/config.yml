@@ -1,0 +1,33 @@
+Worlds-load:
+  - "dimension"
+  - "utils"
+  - "Mines"
+  - "presentation"
+  - "pres"
+
+
+blocked:
+  potions:
+    - 16546
+    - 16424
+    - 16425
+    - 16460
+    - 16428
+    - 8203
+    - 8235
+    - 8267
+    - 16395
+    - 16427
+    - 16459
+  blocks:
+    - "BEDROCK"
+    - "MINECART"
+  items:
+    - MINECART
+    - BOAT
+
+ITEMS:
+  POTION-COUNTER:
+    NAME: "&e&l✦ &6&lObservateur de Potions &e&l✦"
+  ARMOR-DURABILITY:
+    NAME: "&e&l✦ &6&lObservateur de Dura &e&l✦"

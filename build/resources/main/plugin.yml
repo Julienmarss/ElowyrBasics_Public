@@ -1,0 +1,6 @@
+name: ElowyrBasics
+author: AnZok
+version: 1.0
+main: fr.elowyr.basics.ElowyrBasics
+depend: [ Factions, WorldGuard, WorldEdit, ShopGUIPlus, PlaceholderAPI ]
+loadbefore: [ServerNPC, Mines, ElowyrEvents, DecentHolograms]

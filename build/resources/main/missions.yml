@@ -1,0 +1,62 @@
+heads:
+  impossible: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1MGJiYzU0MTMwMzVkNDg3ZjNkNjYyM2E1OTE5MzBlODQyYzU2MjQxZjc2NzM4ZDhiZTFmZWEyZGMyY2QyZiJ9fX0="
+  finish: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2E1MGJiYzU0MTMwMzVkNDg3ZjNkNjYyM2E1OTE5MzBlODQyYzU2MjQxZjc2NzM4ZDhiZTFmZWEyZGMyY2QyZiJ9fX0="
+  progress: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWY3YTdkZTI1YjE2NGY4OTliZDZlOGEyYWE1OTU2ZTg2ZTc4NDFlODIyNzNiMWY4NzkwNjIyZmM2Mjc1ZTkifX19"
+  select: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTBlMjNkOTQxNTc4Mjg1YmJlNzg0M2Q0NTEwZGM3YjcxYTVhN2FmMmU1NmRhYzI3MTViNWQyNDk3ZjZlOSJ9fX0="
+missions: # rewards = points farm
+  mission-1:
+    id: 1
+    description: "&7Casser &f90000 &7Verrues du Nether"
+    missionType: "BREAK_BLOCK"
+    material: "NETHER_WARTS"
+    objective: 90000
+    rewards: 15
+  misson-2:
+    id: 2
+    description: "&7Tuer &f55000 &7Zombies"
+    missionType: "KILL"
+    entityType: "ZOMBIE"
+    objective: 55000
+    rewards: 20
+  misson-3:
+    id: 3
+    description: "&7Casser &f30000 &7pierres"
+    missionType: "BREAK_BLOCK"
+    material: "COBBLESTONE"
+    objective: 30000
+    rewards: 10
+  mission-4:
+    id: 4
+    description: "&7Tuer &f15000 &7Squelettes"
+    missionType: "KILL"
+    entityType: "SKELETON"
+    objective: 15000
+    rewards: 20
+  mission-5:
+    id: 5
+    description: "&7Placer &f7500 &7Blocs de Fer"
+    missionType: "BLOCK_PLACE"
+    material: "IRON_BLOCK"
+    objective: 7500
+    rewards: 20
+  mission-6:
+    id: 6
+    description: "&7Tuer &f9000 &7Arraignées"
+    missionType: "KILL"
+    entityType: "SPIDER"
+    objective: 9000
+    rewards: 30
+  mission-7:
+    id: 7
+    description: "&7Casser &f120000 &7Carottes"
+    missionType: "BREAK_BLOCK"
+    material: "CARROT"
+    objective: 120000
+    rewards: 20
+  mission-8:
+    id: 8
+    description: "&7Vendre &f5000 &7Ficelles"
+    missionType: "SELL_SHOP"
+    material: "STRING"
+    objective: 5000
+    rewards: 15

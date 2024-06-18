@@ -1,0 +1,42 @@
+tnt:
+  material: TNT
+  limit_per_chunk: 64
+piston_base:
+  material: PISTON_BASE
+  limit_per_chunk: 256
+piston_extension:
+  material: PISTON_EXTENSION
+  limit_per_chunk: 256
+piston_sticky_base:
+  material: PISTON_STICKY_BASE
+  limit_per_chunk: 256
+piston_moving_piece:
+  material: PISTON_MOVING_PIECE
+  limit_per_chunk: 256
+enderchest:
+  material: ENDERCHEST
+  limit_per_chunk: 32
+hopper:
+  material: HOPPER
+  limit_per_chunk: 16
+enchant_table:
+  material: ENCHANT_TABLE
+  limit_per_chunk: 32
+furnace:
+  material: FURNACE
+  limit_per_chunk: 32
+jukebox:
+  material: JUKEBOX
+  limit_per_chunk: 32
+fence_gate:
+  material: FENCE_GATE
+  limit_per_chunk: 32
+workbench:
+  material: WORKBENCH
+  limit_per_chunk: 32
+dropper:
+  material: DROPPER
+  limit_per_chunk: 128
+dispenser:
+  material: DISPENSER
+  limit_per_chunk: 512

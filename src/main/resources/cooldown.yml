@@ -1,0 +1,30 @@
+MESSAGES:
+  CHEATAPPLE-DISABLED: "&4&l✘ &7◆ &cLes &4pommes cheat &csont &cdésactivé."
+  APPLE-DISABLED: "&4&l✘ &7◆ &cLes &4pommes &csont &cdésactivé."
+  ENDERPEARL:
+    NATURE: "&5&lCooldown &7◆ &fVous devez attendre &2&l%time% secondes &favant d'&autiliser &fune &5Enderpearl&f."
+    WARZONE: "&5&lCooldown &7◆ &cVous devez attendre &2&l%time% secondes &favant d'&autiliser &fune &5Enderpearl&f."
+  APPLE:
+    CANNOT: "&5&lCooldown &7◆ &fVous êtes en &5cooldown &fpendant &2&l%time% secondes&f."
+    END: "&5&lCooldown &7◆ &fVous n'êtes plus en cooldown &epomme en or&f."
+    NOW: "&5&lCooldown &7◆ &fVous êtes &amaintenant &fen &5cooldown &fde &epomme en or&f."
+  CHEATAPPLE:
+    CANNOT: "&5&lCooldown &7◆ &fVous êtes en &5cooldown &fpendant &2&l%time% minutes&f."
+    END: "&5&lCooldown &7◆ &fVous n'êtes plus en cooldown &6&lPomme Cheat&f."
+    NOW: "&5&lCooldown &7◆ &fVous êtes &amaintenant &fen &5cooldown &fde &6pomme cheat&f."
+
+TIME: #SECONDS
+  ENDERPEARL:
+    NATURE: 10
+    WARZONE: 15
+  APPLE: 3
+  CHEATAPPLE: 900
+
+CHEATAPPLE: true
+APPLE: true
+
+REGION-DISABLED-APPLE:
+  - "ap"
+
+REGION-DISABLED-ENDERPEARL:
+  - "pvp1v1"

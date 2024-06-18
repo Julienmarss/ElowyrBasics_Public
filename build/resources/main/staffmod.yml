@@ -1,0 +1,12 @@
+MESSAGES:
+  FREEZE: "&e%player% &fest congelé !"
+  UNFREEZE: "&e%player% &fest décongelé !"
+  MOD: "&fVous &aêtes &fen&e Modération&f."
+  UNMOD: "&fVous &cn'êtes &fplus en &eModération&f."
+  EMPTY-PLAYERS: "&fIl n'y a pas &cassez&f de joueur pour vous &atéléporter&f."
+  TELEPORT: "&fVous avez été &atéléporté&f sur &e%player%&f."
+  USAGE-FREEZE: "&c/freeze <player>."
+  EMPTY-PLAYER: "&fLe joueur &e%player% &cn'existe&f pas."
+  OPEN-INVENTORY: "&fOuverture de l'inventaire de &e%player%&f."
+  TELEPORT-VANISH: "&fAttention ! Vous n'êtes pas en vanish !"
+  FREEZE-DECO: "&e%player%&f vient de &cdéconnecter&f alors qu'il était &6Freeze&f !"

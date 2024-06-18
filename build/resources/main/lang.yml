@@ -1,0 +1,40 @@
+randomtp:
+  cooldown: "§4§l✘ &7◆ &fVous devez attendre encore &2&l%time% minutes&f pour vous &atéléporter aléatoirement&f."
+  dont-teleport: "§4§l✘ &7◆ &cVous ne pouvez pas vous téléporter aléatoirement dans ce monde."
+  success: "&2&l✔ &7◆ &aVous avez été téléporté aléatoirement !"
+
+nightvision:
+  enabled: "&2&l✔ &7◆ &fVous avez &aactivé &fla &6vision nocturne&f !"
+  disabled: "&2&l✔ &7◆ &fVous avez &cdésactivé &fla &6vision nocturne&f !"
+
+bottlexp:
+  name: "&fBouteille d'exp - &bNiveaux: %levels%"
+  success: "&2&l✔ &7◆ &fTu viens de convertir ton expérience en &abouteilles d'XP"
+  no-exp: "§4§l✘ &7◆ &cVous n'avez pas suffisamment de niveaux d'exp !"
+  used: "&2&l✔ &7◆ &fVous venez de récupérer %levels% niveaux !"
+
+listeners:
+  send-money: "&6&lElowyr &7◆ &fVous avez reçu &e%money%$&f."
+
+assets:
+  help:
+    - "/atout enable <atout>"
+    - "/atout disable <atout>"
+    - "/atout help"
+  already: "§4§l✘ &7◆ &fL'&6atout &fest &adéjà &factivé."
+  enable: "&2&l✔ &7◆ &fVotre atout %asset% &fest &aactivé&f."
+  disable: "&2&l✔ &7◆ &fVotre atout %asset% &fest &cdésactivé&f."
+  noExist: "§4§l✘ &7◆ &cL'atout n'existe pas."
+  notEnable: "§4§l✘ &7◆ &cL'atout n'est pas activé."
+  no-permission: "§4§l✘ &7◆ &cVous ne possédez pas l'atout."
+  names:
+    noFood: "&3Saturation"
+    noFall: "&9Anti-Chûte"
+    noRod: "&2No-Rod"
+    antiCleanUP: "&dAntiCleanUP"
+    aquatique: "&bRespiration Aquatique"
+    vision: "&5Vision Nocturne"
+    speed: "&bSpeed"
+    force: "&cForce"
+    fireresi: "&6Résistance au Feu"
+    haste: "&eHaste"

@@ -1,0 +1,564 @@
+PREFIX: "&6&lFaction &7◆ "
+PLAYER_NOT_HAVE_FACTION: "%prefix% &cYou dont have any faction."
+
+F_UPGRADE:
+  INVENTORY_NAME: "&6&lFaction &7▸ &ePrestiges"
+  INVENTORY_SIZE: 45
+  FACTION_NOT_THIS_LEVEL: "%prefix% &cYour faction hasn't reached that level yet."
+  ALREADY_UNLOCK: "%prefix% &cYour faction already unlock this level."
+  TITLE_NEXT_LEVEL: "&e&l✵ &aNext upgrade level unlocked &e&l✵"
+  TITLE_NO_NEXT_LEVEL: "&e&l✵ &aUpgrade now end &e&l✵"
+  SUBTITLE_NEXT_LEVEL: "&fNews &efactions &fupgrade is now &aavailable"
+  SUBTITLE_NO_NEXT_LEVEL: "&aYour faction end all upgrades !"
+  LOCKED_REWARD: "&4&lLocked Rewards"
+  LOCKED_REWARDS_LORE:
+    - ""
+    - "&Locked Reward ! Continue to farm !"
+  UNLOCKED_REWARDS: "&aUnlocked Rewards (Click)"
+  UNLOCKED_REWARDS_LORE:
+    - ""
+    - "&Unlocked Reward ! Click to progress"
+  FACTION_INFORMATION:
+    ITEM: "NETHER_STAR"
+    NAME: "&8▸ &a%faction%"
+    LORE:
+      - ""
+      - "&7Upgrade your &afaction &7level"
+      - "&7by &ecompleting &7yours faction upgrades."
+
+  UPGRADES:
+    1:
+      LEVEL: 1
+      SLOT: 20
+      NAME: "&e✵ &6&lUpgrade &7• &fLevel 1&e✵"
+      LORE:
+        - ""
+        - "&d▸ &fWin rewards by completing"
+        - "&fyour faction upgrade."
+        - ""
+        - "&eRewards:"
+        - ""
+        - "&6✔ &e+1 &fof power"
+        - ""
+        - "&a&l• &aClick to open the requirements"
+      REWARDS:
+        - "f powerboost add f %faction% 1"
+      ITEM_LOCKED: "hdb-193"
+      ITEM_UNLOCKED: "hdb-193"
+      LIST:
+        1:
+          SLOT: 10
+          NAME: "&fBreak &6stone"
+          DISPLAY_NAME: "&fBreak &a%goal% &fstones."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "STONE:0"
+          ACTION: BREAK
+          TARGET: "STONE"
+          GOAL: 1
+        2:
+          SLOT: 11
+          NAME: "&fCreate chests"
+          DISPLAY_NAME: "&fCreate &a%goal% &fchests."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "CHEST:0"
+          ACTION: CRAFT
+          TARGET: "CHEST"
+          GOAL: 1
+        3:
+          SLOT: 12
+          NAME: "&fPlace &6stone"
+          DISPLAY_NAME: "&fPlace &a%goal% &fstones."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "STONE:0"
+          ACTION: PLACE
+          TARGET: "STONE"
+          GOAL: 1
+        4:
+          SLOT: 13
+          NAME: "&fEnchant &6items"
+          DISPLAY_NAME: "&fEnchant &a%goal% &fitems"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "ENCHANTMENT_TABLE:0"
+          ACTION: ENCHANT
+          TARGET: "ALL"
+          GOAL: 1
+        5:
+          SLOT: 14
+          NAME: "&fFishing"
+          DISPLAY_NAME: "&fCatch &a%goal% &3fish"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "COOKED_FISH:0"
+          ACTION: FISH
+          TARGET: "ALL"
+          GOAL: 1
+        6:
+          SLOT: 15
+          NAME: "&fKill &7Skeletons"
+          DISPLAY_NAME: "&fKill &a%goal% &aSkeletons"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "MONSTER_EGG:51"
+          ACTION: KILL_MOB
+          TARGET: "SKELETON"
+          GOAL: 1
+        7:
+          SLOT: 16
+          NAME: "&fKill players"
+          DISPLAY_NAME: "&fKill &a%goal% &fplayers."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "DIAMOND_SWORD:0"
+          ACTION: KILL_PLAYER
+          TARGET: "PLAYER"
+          GOAL: 1
+        8:
+          SLOT: 17
+          NAME: "&fThrow enderpearls"
+          DISPLAY_NAME: "&fThrow &a%goal% &fpearls"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "ENDER_PEARL:0"
+          ACTION: THROW
+          TARGET: "ENDER_PEARL"
+          GOAL: 5000
+    2:
+      LEVEL: 2
+      SLOT: 21
+      NAME: "&e✵ &6&lUpgrade &7• &fLevel 2&e✵"
+      LORE:
+        - ""
+        - "&d▸ &fWin rewards by completing"
+        - "&fyour faction upgrade."
+        - ""
+        - "&eRewards:"
+        - ""
+        - "&6✔ &e+1 &fof power"
+        - ""
+        - "&a&l• &aClick to open the requirements"
+      REWARDS:
+        - "f powerboost add f %faction% 1"
+      ITEM_LOCKED: "hdb-194"
+      ITEM_UNLOCKED: "hdb-194"
+      LIST:
+        1:
+          SLOT: 10
+          NAME: "&fBreak &6stone"
+          DISPLAY_NAME: "&fBreak &a%goal% &fstones."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "STONE:0"
+          ACTION: BREAK
+          TARGET: "STONE"
+          GOAL: 1
+        2:
+          SLOT: 11
+          NAME: "&fCreate chests"
+          DISPLAY_NAME: "&fCreate &a%goal% &fchests."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "CHEST:0"
+          ACTION: CRAFT
+          TARGET: "CHEST"
+          GOAL: 1
+        3:
+          SLOT: 12
+          NAME: "&fPlace &6stone"
+          DISPLAY_NAME: "&fPlace &a%goal% &fstones."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "STONE:0"
+          ACTION: PLACE
+          TARGET: "STONE"
+          GOAL: 1
+        4:
+          SLOT: 13
+          NAME: "&fEnchant &6items"
+          DISPLAY_NAME: "&fEnchant &a%goal% &fitems"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "ENCHANTMENT_TABLE:0"
+          ACTION: ENCHANT
+          TARGET: "ALL"
+          GOAL: 1
+        5:
+          SLOT: 14
+          NAME: "&fFishing"
+          DISPLAY_NAME: "&fCatch &a%goal% &3fish"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "COOKED_FISH:0"
+          ACTION: FISH
+          TARGET: "ALL"
+          GOAL: 1
+        6:
+          SLOT: 15
+          NAME: "&fKill &7Skeletons"
+          DISPLAY_NAME: "&fKill &a%goal% &aSkeletons"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "MONSTER_EGG:51"
+          ACTION: KILL_MOB
+          TARGET: "SKELETON"
+          GOAL: 1
+        7:
+          SLOT: 16
+          NAME: "&fKill players"
+          DISPLAY_NAME: "&fKill &a%goal% &fplayers."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "DIAMOND_SWORD:0"
+          ACTION: KILL_PLAYER
+          TARGET: "PLAYER"
+          GOAL: 1
+        8:
+          SLOT: 17
+          NAME: "&fThrow enderpearls"
+          DISPLAY_NAME: "&fThrow &a%goal% &fpearls"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "ENDER_PEARL:0"
+          ACTION: THROW
+          TARGET: "ENDER_PEARL"
+          GOAL: 5000
+    3:
+      LEVEL: 3
+      SLOT: 22
+      NAME: "&e✵ &6&lUpgrade &7• &fLevel 3&e✵"
+      LORE:
+        - ""
+        - "&d▸ &fWin rewards by completing"
+        - "&fyour faction upgrade."
+        - ""
+        - "&eRewards:"
+        - ""
+        - "&6✔ &e+1 &fof power"
+        - ""
+        - "&a&l• &aClick to open the requirements"
+      REWARDS:
+        - "f powerboost add f %faction% 1"
+      ITEM_LOCKED: "hdb-165"
+      ITEM_UNLOCKED: "hdb-195"
+      LIST:
+        1:
+          SLOT: 10
+          NAME: "&fBreak &6stone"
+          DISPLAY_NAME: "&fBreak &a%goal% &fstones."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "STONE:0"
+          ACTION: BREAK
+          TARGET: "STONE"
+          GOAL: 1
+        2:
+          SLOT: 11
+          NAME: "&fCreate chests"
+          DISPLAY_NAME: "&fCreate &a%goal% &fchests."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "CHEST:0"
+          ACTION: CRAFT
+          TARGET: "CHEST"
+          GOAL: 1
+        3:
+          SLOT: 12
+          NAME: "&fPlace &6stone"
+          DISPLAY_NAME: "&fPlace &a%goal% &fstones."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "STONE:0"
+          ACTION: PLACE
+          TARGET: "STONE"
+          GOAL: 1
+        4:
+          SLOT: 13
+          NAME: "&fEnchant &6items"
+          DISPLAY_NAME: "&fEnchant &a%goal% &fitems"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "ENCHANTMENT_TABLE:0"
+          ACTION: ENCHANT
+          TARGET: "ALL"
+          GOAL: 1
+        5:
+          SLOT: 14
+          NAME: "&fFishing"
+          DISPLAY_NAME: "&fCatch &a%goal% &3fish"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "COOKED_FISH:0"
+          ACTION: FISH
+          TARGET: "ALL"
+          GOAL: 1
+        6:
+          SLOT: 15
+          NAME: "&fKill &7Skeletons"
+          DISPLAY_NAME: "&fKill &a%goal% &aSkeletons"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "MONSTER_EGG:51"
+          ACTION: KILL_MOB
+          TARGET: "SKELETON"
+          GOAL: 1
+        7:
+          SLOT: 16
+          NAME: "&fKill players"
+          DISPLAY_NAME: "&fKill &a%goal% &fplayers."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "DIAMOND_SWORD:0"
+          ACTION: KILL_PLAYER
+          TARGET: "PLAYER"
+          GOAL: 1
+        8:
+          SLOT: 17
+          NAME: "&fThrow enderpearls"
+          DISPLAY_NAME: "&fThrow &a%goal% &fpearls"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "ENDER_PEARL:0"
+          ACTION: THROW
+          TARGET: "ENDER_PEARL"
+          GOAL: 5000
+    4:
+      LEVEL: 4
+      SLOT: 23
+      NAME: "&e✵ &6&lUpgrade &7• &fLevel 4&e✵"
+      LORE:
+        - ""
+        - "&d▸ &fWin rewards by completing"
+        - "&fyour faction upgrade."
+        - ""
+        - "&eRewards:"
+        - ""
+        - "&6✔ &e+1 &fof power"
+        - ""
+        - "&a&l• &aClick to open the requirements"
+      REWARDS:
+        - "f powerboost add f %faction% 1"
+      ITEM_LOCKED: "hdb-196"
+      ITEM_UNLOCKED: "hdb-196"
+      LIST:
+        1:
+          SLOT: 10
+          NAME: "&fBreak &6stone"
+          DISPLAY_NAME: "&fBreak &a%goal% &fstones."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "STONE:0"
+          ACTION: BREAK
+          TARGET: "STONE"
+          GOAL: 1
+        2:
+          SLOT: 11
+          NAME: "&fCreate chests"
+          DISPLAY_NAME: "&fCreate &a%goal% &fchests."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "CHEST:0"
+          ACTION: CRAFT
+          TARGET: "CHEST"
+          GOAL: 1
+        3:
+          SLOT: 12
+          NAME: "&fPlace &6stone"
+          DISPLAY_NAME: "&fPlace &a%goal% &fstones."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "STONE:0"
+          ACTION: PLACE
+          TARGET: "STONE"
+          GOAL: 1
+        4:
+          SLOT: 13
+          NAME: "&fEnchant &6items"
+          DISPLAY_NAME: "&fEnchant &a%goal% &fitems"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "ENCHANTMENT_TABLE:0"
+          ACTION: ENCHANT
+          TARGET: "ALL"
+          GOAL: 1
+        5:
+          SLOT: 14
+          NAME: "&fFishing"
+          DISPLAY_NAME: "&fCatch &a%goal% &3fish"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "COOKED_FISH:0"
+          ACTION: FISH
+          TARGET: "ALL"
+          GOAL: 1
+        6:
+          SLOT: 15
+          NAME: "&fKill &7Skeletons"
+          DISPLAY_NAME: "&fKill &a%goal% &aSkeletons"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "MONSTER_EGG:51"
+          ACTION: KILL_MOB
+          TARGET: "SKELETON"
+          GOAL: 1
+        7:
+          SLOT: 16
+          NAME: "&fKill players"
+          DISPLAY_NAME: "&fKill &a%goal% &fplayers."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "DIAMOND_SWORD:0"
+          ACTION: KILL_PLAYER
+          TARGET: "PLAYER"
+          GOAL: 1
+        8:
+          SLOT: 17
+          NAME: "&fThrow enderpearls"
+          DISPLAY_NAME: "&fThrow &a%goal% &fpearls"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "ENDER_PEARL:0"
+          ACTION: THROW
+          TARGET: "ENDER_PEARL"
+          GOAL: 5000
+    5:
+      LEVEL: 5
+      SLOT: 24
+      NAME: "&e✵ &6&lUpgrade &7• &fLevel 5&e✵"
+      LORE:
+        - ""
+        - "&d▸ &fWin rewards by completing"
+        - "&fyour faction upgrade."
+        - ""
+        - "&eRewards:"
+        - ""
+        - "&6✔ &e+1 &fof power"
+        - ""
+        - "&a&l• &aClick to open the requirements"
+      REWARDS:
+        - "f powerboost add f %faction% 1"
+      ITEM_LOCKED: "ENCHANTMENT_TABLE"
+      ITEM_UNLOCKED: "ENCHANTMENT_TABLE"
+      LIST:
+        1:
+          SLOT: 10
+          NAME: "&fBreak &6stone"
+          DISPLAY_NAME: "&fBreak &a%goal% &fstones."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "STONE:0"
+          ACTION: BREAK
+          TARGET: "STONE"
+          GOAL: 1
+        2:
+          SLOT: 11
+          NAME: "&fCreate chests"
+          DISPLAY_NAME: "&fCreate &a%goal% &fchests."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "CHEST:0"
+          ACTION: CRAFT
+          TARGET: "CHEST"
+          GOAL: 1
+        3:
+          SLOT: 12
+          NAME: "&fPlace &6stone"
+          DISPLAY_NAME: "&fPlace &a%goal% &fstones."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "STONE:0"
+          ACTION: PLACE
+          TARGET: "STONE"
+          GOAL: 1
+        4:
+          SLOT: 13
+          NAME: "&fEnchant &6items"
+          DISPLAY_NAME: "&fEnchant &a%goal% &fitems"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "ENCHANTMENT_TABLE:0"
+          ACTION: ENCHANT
+          TARGET: "ALL"
+          GOAL: 1
+        5:
+          SLOT: 14
+          NAME: "&fFishing"
+          DISPLAY_NAME: "&fCatch &a%goal% &3fish"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "COOKED_FISH:0"
+          ACTION: FISH
+          TARGET: "ALL"
+          GOAL: 1
+        6:
+          SLOT: 15
+          NAME: "&fKill &7Skeletons"
+          DISPLAY_NAME: "&fKill &a%goal% &aSkeletons"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "MONSTER_EGG:51"
+          ACTION: KILL_MOB
+          TARGET: "SKELETON"
+          GOAL: 1
+        7:
+          SLOT: 16
+          NAME: "&fKill players"
+          DISPLAY_NAME: "&fKill &a%goal% &fplayers."
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "DIAMOND_SWORD:0"
+          ACTION: KILL_PLAYER
+          TARGET: "PLAYER"
+          GOAL: 1
+        8:
+          SLOT: 17
+          NAME: "&fThrow enderpearls"
+          DISPLAY_NAME: "&fThrow &a%goal% &fpearls"
+          DISPLAY_LORE:
+            - ""
+            - "&d▸ &e%actual-goal%&f/&e%goal%"
+          ICON: "ENDER_PEARL:0"
+          ACTION: THROW
+          TARGET: "ENDER_PEARL"
+          GOAL: 5000

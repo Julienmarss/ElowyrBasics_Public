@@ -1,0 +1,28 @@
+MESSAGES:
+  USAGE:
+    - "&b/spawners pickaxe <player> <level> <quantity>."
+    - "&b/spawners give <player> <type> <quantity>."
+    - "&b/spawners add <player> <type>"
+  NO-PLAYER: "&6&lSpawneurs &7◆ &cLe joueur &4%name% &cn'existe pas."
+  NO-EXIST: "&6&lSpawneurs &7◆ &cLe spawner n'existe pas."
+  LOGS-CREATE: "&6&lSpawneurs &7◆ &fun fichier de logs vient d'être crée !"
+  INVALID-AMOUNT: "&6&lSpawneurs &7◆ &cVous ne pouvez pas give une valeur inférieur à 1 !"
+  PICKAXE:
+    SUCCESS: "&fVous venez de donner %quantity% pioche a spawner niveau %level% à &b%player% &f!"
+    SUCCESS-OTHER: "&fVous venez de recevoir %quantity% pioche à spawner niveau %level% !"
+  GIVE:
+    SUCCESS: "&6&lSpawneurs &7◆ &fVous venez de &adonner &f%quantity% &5spawneur &fà &5&l%spawner% &fà &6&l%player% &f!"
+    SUCCESS-OTHER: "&6&lSpawneurs &7◆ &fVous venez de &arecevoir &f%quantity% &5spawneur &fà &5&l%spawner% &f!"
+  BAD-PICKAXE: "&6&lSpawneurs &7◆ &fVous devez avoir une &ePioche à Spawneur &fpour &ccasser&f ceci!"
+  BAD-BLOCK: "&6&lSpawneurs &7◆ &fVous ne pouvez pas &ccasser &fce bloc avec une &ePioche à Spawneur &f!"
+  ENNEMI-TERRITORY: "&6&lSpawneurs &7◆ &fVous ne pouvez pas &ccasser&f ce bloc dans un claim &4ennemi&f !"
+  PLACED-SUCCESS: "&6&lSpawneurs &7◆ &fVous venez de &aposer&f le spawner à %spawner% avec &2succès&f !"
+
+SPAWNERS:
+  SPAWNER-NAME: "§eSPAWNER A %spawner%"
+  PICKAXE:
+    LEVEL-1: "§ePickaxe Spawner"
+    LEVEL-2: "§ePickaxe Spawner"
+    LEVEL-3: "§ePickaxe Spawner"
+  GIVE:
+    NAME: "§eSpawner %spawner%"
